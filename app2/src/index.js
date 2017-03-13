@@ -9,16 +9,24 @@ import ReactDOM from 'react-dom';
 // );
 
 
-// import HelloMessage from './hellomessage.js';
+import HelloMessage from './hellomessage.js';
+
+var name=123;
+ReactDOM.render(
+	<HelloMessage name={name} />,
+	document.getElementById('root')
+);
+
+// import Website from './Website.js';
 
 // ReactDOM.render(
-// 	<HelloMessage name="zhangcui" />,
+// 	<Website />,
 // 	document.getElementById('root')
 // );
 
-import Website from './Website.js';
+// import LikeButton from './LikeButton.js';
 
-ReactDOM.render(
-	<Website name="zhangcui" site="http://www.baidu.com" />,
-	document.getElementById('root')
-);
+// ReactDOM.render(
+// 	<LikeButton />,
+// 	document.getElementById('root')
+// );

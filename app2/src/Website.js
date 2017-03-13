@@ -1,11 +1,16 @@
 import React , { Component } from 'react';
 
 class Website extends Component {
+	state = {
+		name : 'zhangcui',
+		site : 'http://www.baidu.com'
+	}
+
 	render() {
 		return (
 			<div>
-				<Name name={this.props.name} />
-				<Link site={this.props.site} />
+				<Name name={this.state.name} />
+				<Link site={this.state.site} />
 			</div>
 		);
 	}
