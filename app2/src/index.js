@@ -9,13 +9,13 @@ import ReactDOM from 'react-dom';
 // );
 
 
-import HelloMessage from './hellomessage.js';
+// import HelloMessage from './hellomessage.js';
 
-var name=123;
-ReactDOM.render(
-	<HelloMessage name={name} />,
-	document.getElementById('root')
-);
+// var name=123;
+// ReactDOM.render(
+// 	<HelloMessage name={name} />,
+// 	document.getElementById('root')
+// );
 
 // import Website from './Website.js';
 
@@ -30,3 +30,9 @@ ReactDOM.render(
 // 	<LikeButton />,
 // 	document.getElementById('root')
 // );
+
+import Counter from './Counter.js';
+ReactDOM.render(
+	<Counter />,
+	document.getElementById('root')
+);
