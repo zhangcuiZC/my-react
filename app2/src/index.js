@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 // import App from './App';
 // import './index.css';
 
@@ -43,8 +44,14 @@ import ReactDOM from 'react-dom';
 // 	document.getElementById('root')
 // );
 
-import Button from './Button.js';
+// import Button from './Button.js';
+// ReactDOM.render(
+// 	<Button />,
+// 	document.getElementById('root')
+// );
+
+import UserGist from './UserGist.js';
 ReactDOM.render(
-	<Button />,
+	<UserGist source="https://api.github.com/users/octocat/gists" />,
 	document.getElementById('root')
 );
