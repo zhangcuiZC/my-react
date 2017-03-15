@@ -37,8 +37,14 @@ import ReactDOM from 'react-dom';
 // 	document.getElementById('root')
 // );
 
-import Hello from './Hello.js';
+// import Hello from './Hello.js';
+// ReactDOM.render(
+// 	<Hello name="zhangcui" />,
+// 	document.getElementById('root')
+// );
+
+import Button from './Button.js';
 ReactDOM.render(
-	<Hello name="zhangcui" />,
+	<Button />,
 	document.getElementById('root')
 );
