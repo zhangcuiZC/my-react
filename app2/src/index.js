@@ -31,8 +31,14 @@ import ReactDOM from 'react-dom';
 // 	document.getElementById('root')
 // );
 
-import Counter from './Counter.js';
+// import Counter from './Counter.js';
+// ReactDOM.render(
+// 	<Counter />,
+// 	document.getElementById('root')
+// );
+
+import Hello from './Hello.js';
 ReactDOM.render(
-	<Counter />,
+	<Hello name="zhangcui" />,
 	document.getElementById('root')
 );
