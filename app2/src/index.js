@@ -50,8 +50,14 @@ import ReactDOM from 'react-dom';
 // 	document.getElementById('root')
 // );
 
-import UserGist from './UserGist.js';
+// import UserGist from './UserGist.js';
+// ReactDOM.render(
+// 	<UserGist source="https://api.github.com/users/octocat/gists" />,
+// 	document.getElementById('root')
+// );
+
+import HelloMessage from './HelloMessage_click.js';
 ReactDOM.render(
-	<UserGist source="https://api.github.com/users/octocat/gists" />,
+	<HelloMessage />,
 	document.getElementById('root')
 );
