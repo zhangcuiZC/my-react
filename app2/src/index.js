@@ -56,8 +56,14 @@ import ReactDOM from 'react-dom';
 // 	document.getElementById('root')
 // );
 
-import HelloMessage from './HelloMessage_click.js';
+// import HelloMessage from './HelloMessage_click.js';
+// ReactDOM.render(
+// 	<HelloMessage />,
+// 	document.getElementById('root')
+// );
+
+import MyComponent from './MyComponent.js';
 ReactDOM.render(
-	<HelloMessage />,
+	<MyComponent />,
 	document.getElementById('root')
 );
