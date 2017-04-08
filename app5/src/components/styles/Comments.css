@@ -1,0 +1,39 @@
+.comment:hover button{
+	display: inline-block;
+}
+
+.user{
+	color: #2A93D4;
+}
+
+.btn{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	display: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	color: #F05945;
+}
+.inputuser{
+	width: 50%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.inputcomment{
+	width: 100%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #ccc;
+
+}
+.inputuser:focus{
+	outline: none;
+}
+.inputcomment:focus{
+	outline: none;
+}

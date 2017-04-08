@@ -1,0 +1,12 @@
+.singlephoto{
+	width: 40%;
+	margin: 5%;
+	float: left;
+	box-shadow: 0 0 20px #aaa;
+}
+.singlecomments{
+	width: 45%;
+	float: left;
+	margin-top: 5%;
+	font-size: 14px;
+}

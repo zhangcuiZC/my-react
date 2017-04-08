@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
+import style from './styles/Main.css';
 
 class Main extends Component {
-	constructor(props){
-		super(props)
-	}
+
 	render() {
 		return (
 			<div>
-				<h1>
+				<h1 className={style.title}>
 					<Link to="/">Reduxstagram</Link>
 				</h1>
-				{this.props.children}
+				{React.cloneElement(this.props.children, this.props)}
 			</div>
 		);
 	}

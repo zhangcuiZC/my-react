@@ -1,0 +1,8 @@
+.grid > div{
+	width: 20%;
+	height: 400px;
+	overflow: hidden;
+	margin: 2.5%;
+	box-shadow: 0 0 10px #ccc;
+	float: left;
+}
